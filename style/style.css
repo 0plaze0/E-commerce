@@ -44,3 +44,18 @@ nav {
   border-bottom: 4px solid green;
   cursor: pointer;
 }
+
+.navBottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.navBottom ul .menuItem {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 50px;
+  font-weight: 600;
+  color: lightgray;
+  cursor: pointer;
+}
