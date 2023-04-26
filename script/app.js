@@ -87,12 +87,16 @@ const initApp = () => {
   const ProductPrice = document.querySelector(".productPrize");
   const ProductColor = document.querySelectorAll(".color");
   const ProductSize = document.querySelectorAll(".size");
+  const ProductBuy = document.querySelector(".productButton");
+  const paymentDetails = document.querySelector(".payment");
+  const paymentCross = document.querySelector(".close");
   console.log(PRODUCTS);
   console.log(ProductImage);
   console.log(ProductTitle);
   console.log(ProductPrice);
   console.log(ProductColor);
   console.log(ProductSize);
+  console.log(ProductBuy);
 
   menuItem.forEach((node, index) => {
     node.addEventListener("click", () => {
@@ -126,6 +130,12 @@ const initApp = () => {
       size.style.backgroundColor = "black";
       size.style.color = "white";
     });
+  });
+  ProductBuy.addEventListener("click", () => {
+    paymentDetails.style.display = "flex";
+  });
+  paymentCross.addEventListener("click", () => {
+    paymentDetails.style.display = "none";
   });
 };
 
