@@ -415,20 +415,3 @@ nav {
 .sImg {
   width: 100%;
 }
-/* gallery */
-.gallery {
-  padding: 50px;
-  display: flex;
-}
-.galleryItem {
-  flex: 1;
-  padding: 50px;
-}
-.galleryImg {
-  width: 100%;
-}
-.galleryTitle {
-  font-size: 25px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
