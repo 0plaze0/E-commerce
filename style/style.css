@@ -415,3 +415,53 @@ nav {
 .sImg {
   width: 100%;
 }
+/* footer */
+footer {
+  display: flex;
+  margin: 20px;
+}
+.footerLeft {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.fMenuTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.fListItem {
+  color: grey;
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.finput {
+  padding: 5px;
+}
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.fIcons {
+  display: flex;
+}
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
