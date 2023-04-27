@@ -90,13 +90,6 @@ const initApp = () => {
   const ProductBuy = document.querySelector(".productButton");
   const paymentDetails = document.querySelector(".payment");
   const paymentCross = document.querySelector(".close");
-  console.log(PRODUCTS);
-  console.log(ProductImage);
-  console.log(ProductTitle);
-  console.log(ProductPrice);
-  console.log(ProductColor);
-  console.log(ProductSize);
-  console.log(ProductBuy);
 
   menuItem.forEach((node, index) => {
     node.addEventListener("click", () => {
