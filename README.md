@@ -5,6 +5,6 @@ A E-commerce website for comfortable shoes
 ![Screenshot (214)](https://github.com/0plaze0/E-commerce/assets/110094101/560e3f18-14d2-4560-9881-1183548d4e79)
 
 
-![open in Incognito](https://0plaze0.github.io/E-commerce/)
+[open in Incognito](https://0plaze0.github.io/E-commerce/)
 
 
